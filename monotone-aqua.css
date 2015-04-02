@@ -11,11 +11,20 @@
 .monotone-aqua hr, .monotone-aqua .border, .monotone-aqua .border-top, .monotone-aqua .border-right, .monotone-aqua .border-bottom, .monotone-aqua .border-left, .monotone-aqua input, .monotone-aqua select {
     border-color: #7FDBFF
 }
-.monotone-aqua input:focus, .monotone-aqua select:focus {
-    box-shadow: 0 0 0 2px #7FDBFF
+.monotone-aqua input, .monotone-aqua select {
+    color: #7FDBFF;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px
 }
+.monotone-aqua input:focus, .monotone-aqua select:focus {
+    box-shadow: 0 0 0 3px;
+    outline: none
+}
+.monotone-aqua input:focus, .monotone-aqua select:focus {}
 .monotone-aqua code, .monotone-aqua pre {
-    background-color: color(#7FDBFF alpha(.25))
+    background-color: rgba(127, 219, 255, 0.25)
 }
 .monotone-aqua.inverse, .monotone-aqua .inverse, .monotone-aqua .button {
     color: white;
@@ -26,11 +35,14 @@
 }
 .monotone-aqua.inverse .button, .monotone-aqua .inverse .button {
     color: #7FDBFF;
-    background-color: #111
+    background-color: white
 }
 .monotone-aqua.inverse a, .monotone-aqua .inverse a {
-    color: #111
+    color: white
 }
 .monotone-aqua.inverse hr, .monotone-aqua .inverse hr, .monotone-aqua.inverse .border, .monotone-aqua .inverse .border, .monotone-aqua.inverse .border-top, .monotone-aqua .inverse .border-top, .monotone-aqua.inverse .border-right, .monotone-aqua .inverse .border-right, .monotone-aqua.inverse .border-bottom, .monotone-aqua .inverse .border-bottom, .monotone-aqua.inverse .border-left, .monotone-aqua .inverse .border-left, .monotone-aqua.inverse input, .monotone-aqua .inverse input, .monotone-aqua.inverse select, .monotone-aqua .inverse select {
-    border-color: #111
+    border-color: white
+}
+.monotone-aqua.inverse input, .monotone-aqua .inverse input, .monotone-aqua.inverse select, .monotone-aqua .inverse select {
+    color: white
 }

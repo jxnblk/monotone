@@ -11,11 +11,20 @@
 .monotone-blue hr, .monotone-blue .border, .monotone-blue .border-top, .monotone-blue .border-right, .monotone-blue .border-bottom, .monotone-blue .border-left, .monotone-blue input, .monotone-blue select {
     border-color: #0074D9
 }
-.monotone-blue input:focus, .monotone-blue select:focus {
-    box-shadow: 0 0 0 2px #0074D9
+.monotone-blue input, .monotone-blue select {
+    color: #0074D9;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px
 }
+.monotone-blue input:focus, .monotone-blue select:focus {
+    box-shadow: 0 0 0 3px;
+    outline: none
+}
+.monotone-blue input:focus, .monotone-blue select:focus {}
 .monotone-blue code, .monotone-blue pre {
-    background-color: color(#0074D9 alpha(.25))
+    background-color: rgba(0, 116, 217, 0.25)
 }
 .monotone-blue.inverse, .monotone-blue .inverse, .monotone-blue .button {
     color: white;
@@ -33,4 +42,7 @@
 }
 .monotone-blue.inverse hr, .monotone-blue .inverse hr, .monotone-blue.inverse .border, .monotone-blue .inverse .border, .monotone-blue.inverse .border-top, .monotone-blue .inverse .border-top, .monotone-blue.inverse .border-right, .monotone-blue .inverse .border-right, .monotone-blue.inverse .border-bottom, .monotone-blue .inverse .border-bottom, .monotone-blue.inverse .border-left, .monotone-blue .inverse .border-left, .monotone-blue.inverse input, .monotone-blue .inverse input, .monotone-blue.inverse select, .monotone-blue .inverse select {
     border-color: white
+}
+.monotone-blue.inverse input, .monotone-blue .inverse input, .monotone-blue.inverse select, .monotone-blue .inverse select {
+    color: white
 }

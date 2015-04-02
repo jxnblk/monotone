@@ -13,13 +13,13 @@
       class="px2 py4 monotone-<%= s.name %>"
       style="min-height:100vh;box-sizing:border-box;">
       <div class="container">
-        <div class="flex flex-center mxn2">
+        <div class="flex flex-center flex-wrap mxn2">
           <div class="flex-auto px2">
             <h1 class="m0">
-              <a href="#<%= s.name %>">Monotone <%= s.title %></a>
-              <span class="h4 ml1">v<%= version %></span>
+              <a href="#<%= s.name %>" class="mr1">Monotone <%= s.title %></a>
+              <span class="h4">v<%= version %></span>
             </h1>
-            <p class="m0"><%= description %></p>
+            <p class="bold m0"><%= description %></p>
           </div>
           <div class="px2">
             <a href="//github.com/jxnblk/monotone" class="button">Github</a>
@@ -53,14 +53,54 @@
           </div>
         </div>
 
-        <div class="p2 inverse display-none">
-          <h1 class="m0">Inverse</h1>
-          <h2 class="m0">Sepia</h2>
-          <h2 class="m0">Cyanotype</h2>
-          <h2 class="m0">Daguerreotypes</h2>
-          <h2 class="m0">Ambrotypes</h2>
-          <h2 class="m0">Tintypes</h2>
+        <div class="mb3">
+          <p class="bold">Single color theme styles for text, links, borders, pre, code, buttons, and form elements.</p>
+          <div class="sm-flex mxn2">
+            <div class="sm-col-6 px2">
+              <a href="#<%= s.name %>">Links</a>
+              <code>Code</code>
+              <button class="button">Buttons</button>
+              <div class="p1 mt1 mb1 border border-thick">Borders</div>
+              <pre>preformatted text</pre>
+            </div>
+            <div class="sm-col-6 px2">
+              <label class="h5 bold block">Form Elements</label>
+              <input type="text" class="block full-width" />
+              <label class="h5 bold block">Selects</label>
+              <select class="block full-width">
+                <option value="1" label="One" />
+                <option value="2" label="Two" />
+                <option value="3" label="Three" />
+              </select>
+              <label>
+                <input type="checkbox" />
+                Checkbox
+              </label>
+              <label>
+                <input type="radio" />
+                Radio
+              </label>
+            </div>
+          </div>
         </div>
+
+        <div class="center sm-flex flex-stretch border border-thick">
+          <div class="sm-col-6 p3">
+            <h3 class="h2">Normal</h3>
+          </div>
+          <div class="sm-col-6 p3 inverse">
+            <h3 class="h2">Inverse</h3>
+            <!--
+            <input type="text" class="block full-width" />
+            <select class="full-width">
+              <option value="1" label="One" />
+              <option value="2" label="Two" />
+              <option value="3" label="Three" />
+            </select>
+            -->
+          </div>
+        </div>
+
       </div>
     </section>
   <% }) %>

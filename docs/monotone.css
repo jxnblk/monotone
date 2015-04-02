@@ -2,186 +2,237 @@
 .monotone-aqua.readable { background-color: #111 }
 .monotone-aqua a:not(.button) { color: #7FDBFF; text-decoration: underline }
 .monotone-aqua hr, .monotone-aqua .border, .monotone-aqua .border-top, .monotone-aqua .border-right, .monotone-aqua .border-bottom, .monotone-aqua .border-left, .monotone-aqua input, .monotone-aqua select { border-color: #7FDBFF }
-.monotone-aqua input:focus, .monotone-aqua select:focus { box-shadow: 0 0 0 2px #7FDBFF }
-.monotone-aqua code, .monotone-aqua pre { background-color: color(#7FDBFF alpha(.25)) }
+.monotone-aqua input, .monotone-aqua select { color: #7FDBFF; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-aqua input:focus, .monotone-aqua select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-aqua input:focus, .monotone-aqua select:focus {}
+.monotone-aqua code, .monotone-aqua pre { background-color: rgba(127, 219, 255, 0.25) }
 .monotone-aqua.inverse, .monotone-aqua .inverse, .monotone-aqua .button { color: white; background-color: #7FDBFF }
 .monotone-aqua.inverse.readable, .monotone-aqua.readable .inverse, .monotone-aqua.readable .button { color: #111 }
-.monotone-aqua.inverse .button, .monotone-aqua .inverse .button { color: #7FDBFF; background-color: #111 }
-.monotone-aqua.inverse a, .monotone-aqua .inverse a { color: #111 }
-.monotone-aqua.inverse hr, .monotone-aqua .inverse hr, .monotone-aqua.inverse .border, .monotone-aqua .inverse .border, .monotone-aqua.inverse .border-top, .monotone-aqua .inverse .border-top, .monotone-aqua.inverse .border-right, .monotone-aqua .inverse .border-right, .monotone-aqua.inverse .border-bottom, .monotone-aqua .inverse .border-bottom, .monotone-aqua.inverse .border-left, .monotone-aqua .inverse .border-left, .monotone-aqua.inverse input, .monotone-aqua .inverse input, .monotone-aqua.inverse select, .monotone-aqua .inverse select { border-color: #111 }
+.monotone-aqua.inverse .button, .monotone-aqua .inverse .button { color: #7FDBFF; background-color: white }
+.monotone-aqua.inverse a, .monotone-aqua .inverse a { color: white }
+.monotone-aqua.inverse hr, .monotone-aqua .inverse hr, .monotone-aqua.inverse .border, .monotone-aqua .inverse .border, .monotone-aqua.inverse .border-top, .monotone-aqua .inverse .border-top, .monotone-aqua.inverse .border-right, .monotone-aqua .inverse .border-right, .monotone-aqua.inverse .border-bottom, .monotone-aqua .inverse .border-bottom, .monotone-aqua.inverse .border-left, .monotone-aqua .inverse .border-left, .monotone-aqua.inverse input, .monotone-aqua .inverse input, .monotone-aqua.inverse select, .monotone-aqua .inverse select { border-color: white }
+.monotone-aqua.inverse input, .monotone-aqua .inverse input, .monotone-aqua.inverse select, .monotone-aqua .inverse select { color: white }
 .monotone-blue { color: #0074D9 }
 .monotone-blue.readable { background-color: white }
 .monotone-blue a:not(.button) { color: #0074D9; text-decoration: underline }
 .monotone-blue hr, .monotone-blue .border, .monotone-blue .border-top, .monotone-blue .border-right, .monotone-blue .border-bottom, .monotone-blue .border-left, .monotone-blue input, .monotone-blue select { border-color: #0074D9 }
-.monotone-blue input:focus, .monotone-blue select:focus { box-shadow: 0 0 0 2px #0074D9 }
-.monotone-blue code, .monotone-blue pre { background-color: color(#0074D9 alpha(.25)) }
+.monotone-blue input, .monotone-blue select { color: #0074D9; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-blue input:focus, .monotone-blue select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-blue input:focus, .monotone-blue select:focus {}
+.monotone-blue code, .monotone-blue pre { background-color: rgba(0, 116, 217, 0.25) }
 .monotone-blue.inverse, .monotone-blue .inverse, .monotone-blue .button { color: white; background-color: #0074D9 }
 .monotone-blue.inverse.readable, .monotone-blue.readable .inverse, .monotone-blue.readable .button { color: white }
 .monotone-blue.inverse .button, .monotone-blue .inverse .button { color: #0074D9; background-color: white }
 .monotone-blue.inverse a, .monotone-blue .inverse a { color: white }
 .monotone-blue.inverse hr, .monotone-blue .inverse hr, .monotone-blue.inverse .border, .monotone-blue .inverse .border, .monotone-blue.inverse .border-top, .monotone-blue .inverse .border-top, .monotone-blue.inverse .border-right, .monotone-blue .inverse .border-right, .monotone-blue.inverse .border-bottom, .monotone-blue .inverse .border-bottom, .monotone-blue.inverse .border-left, .monotone-blue .inverse .border-left, .monotone-blue.inverse input, .monotone-blue .inverse input, .monotone-blue.inverse select, .monotone-blue .inverse select { border-color: white }
+.monotone-blue.inverse input, .monotone-blue .inverse input, .monotone-blue.inverse select, .monotone-blue .inverse select { color: white }
 .monotone-lime { color: #01FF70 }
 .monotone-lime.readable { background-color: #111 }
 .monotone-lime a:not(.button) { color: #01FF70; text-decoration: underline }
 .monotone-lime hr, .monotone-lime .border, .monotone-lime .border-top, .monotone-lime .border-right, .monotone-lime .border-bottom, .monotone-lime .border-left, .monotone-lime input, .monotone-lime select { border-color: #01FF70 }
-.monotone-lime input:focus, .monotone-lime select:focus { box-shadow: 0 0 0 2px #01FF70 }
-.monotone-lime code, .monotone-lime pre { background-color: color(#01FF70 alpha(.25)) }
+.monotone-lime input, .monotone-lime select { color: #01FF70; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-lime input:focus, .monotone-lime select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-lime input:focus, .monotone-lime select:focus {}
+.monotone-lime code, .monotone-lime pre { background-color: rgba(1, 255, 112, 0.25) }
 .monotone-lime.inverse, .monotone-lime .inverse, .monotone-lime .button { color: white; background-color: #01FF70 }
 .monotone-lime.inverse.readable, .monotone-lime.readable .inverse, .monotone-lime.readable .button { color: #111 }
-.monotone-lime.inverse .button, .monotone-lime .inverse .button { color: #01FF70; background-color: #111 }
-.monotone-lime.inverse a, .monotone-lime .inverse a { color: #111 }
-.monotone-lime.inverse hr, .monotone-lime .inverse hr, .monotone-lime.inverse .border, .monotone-lime .inverse .border, .monotone-lime.inverse .border-top, .monotone-lime .inverse .border-top, .monotone-lime.inverse .border-right, .monotone-lime .inverse .border-right, .monotone-lime.inverse .border-bottom, .monotone-lime .inverse .border-bottom, .monotone-lime.inverse .border-left, .monotone-lime .inverse .border-left, .monotone-lime.inverse input, .monotone-lime .inverse input, .monotone-lime.inverse select, .monotone-lime .inverse select { border-color: #111 }
+.monotone-lime.inverse .button, .monotone-lime .inverse .button { color: #01FF70; background-color: white }
+.monotone-lime.inverse a, .monotone-lime .inverse a { color: white }
+.monotone-lime.inverse hr, .monotone-lime .inverse hr, .monotone-lime.inverse .border, .monotone-lime .inverse .border, .monotone-lime.inverse .border-top, .monotone-lime .inverse .border-top, .monotone-lime.inverse .border-right, .monotone-lime .inverse .border-right, .monotone-lime.inverse .border-bottom, .monotone-lime .inverse .border-bottom, .monotone-lime.inverse .border-left, .monotone-lime .inverse .border-left, .monotone-lime.inverse input, .monotone-lime .inverse input, .monotone-lime.inverse select, .monotone-lime .inverse select { border-color: white }
+.monotone-lime.inverse input, .monotone-lime .inverse input, .monotone-lime.inverse select, .monotone-lime .inverse select { color: white }
 .monotone-navy { color: #001F3F }
 .monotone-navy.readable { background-color: white }
 .monotone-navy a:not(.button) { color: #001F3F; text-decoration: underline }
 .monotone-navy hr, .monotone-navy .border, .monotone-navy .border-top, .monotone-navy .border-right, .monotone-navy .border-bottom, .monotone-navy .border-left, .monotone-navy input, .monotone-navy select { border-color: #001F3F }
-.monotone-navy input:focus, .monotone-navy select:focus { box-shadow: 0 0 0 2px #001F3F }
-.monotone-navy code, .monotone-navy pre { background-color: color(#001F3F alpha(.25)) }
+.monotone-navy input, .monotone-navy select { color: #001F3F; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-navy input:focus, .monotone-navy select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-navy input:focus, .monotone-navy select:focus {}
+.monotone-navy code, .monotone-navy pre { background-color: rgba(0, 31, 63, 0.25) }
 .monotone-navy.inverse, .monotone-navy .inverse, .monotone-navy .button { color: white; background-color: #001F3F }
 .monotone-navy.inverse.readable, .monotone-navy.readable .inverse, .monotone-navy.readable .button { color: white }
 .monotone-navy.inverse .button, .monotone-navy .inverse .button { color: #001F3F; background-color: white }
 .monotone-navy.inverse a, .monotone-navy .inverse a { color: white }
 .monotone-navy.inverse hr, .monotone-navy .inverse hr, .monotone-navy.inverse .border, .monotone-navy .inverse .border, .monotone-navy.inverse .border-top, .monotone-navy .inverse .border-top, .monotone-navy.inverse .border-right, .monotone-navy .inverse .border-right, .monotone-navy.inverse .border-bottom, .monotone-navy .inverse .border-bottom, .monotone-navy.inverse .border-left, .monotone-navy .inverse .border-left, .monotone-navy.inverse input, .monotone-navy .inverse input, .monotone-navy.inverse select, .monotone-navy .inverse select { border-color: white }
+.monotone-navy.inverse input, .monotone-navy .inverse input, .monotone-navy.inverse select, .monotone-navy .inverse select { color: white }
 .monotone-teal { color: #39CCCC }
 .monotone-teal.readable { background-color: #111 }
 .monotone-teal a:not(.button) { color: #39CCCC; text-decoration: underline }
 .monotone-teal hr, .monotone-teal .border, .monotone-teal .border-top, .monotone-teal .border-right, .monotone-teal .border-bottom, .monotone-teal .border-left, .monotone-teal input, .monotone-teal select { border-color: #39CCCC }
-.monotone-teal input:focus, .monotone-teal select:focus { box-shadow: 0 0 0 2px #39CCCC }
-.monotone-teal code, .monotone-teal pre { background-color: color(#39CCCC alpha(.25)) }
+.monotone-teal input, .monotone-teal select { color: #39CCCC; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-teal input:focus, .monotone-teal select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-teal input:focus, .monotone-teal select:focus {}
+.monotone-teal code, .monotone-teal pre { background-color: rgba(57, 204, 204, 0.25) }
 .monotone-teal.inverse, .monotone-teal .inverse, .monotone-teal .button { color: white; background-color: #39CCCC }
 .monotone-teal.inverse.readable, .monotone-teal.readable .inverse, .monotone-teal.readable .button { color: #111 }
-.monotone-teal.inverse .button, .monotone-teal .inverse .button { color: #39CCCC; background-color: #111 }
-.monotone-teal.inverse a, .monotone-teal .inverse a { color: #111 }
-.monotone-teal.inverse hr, .monotone-teal .inverse hr, .monotone-teal.inverse .border, .monotone-teal .inverse .border, .monotone-teal.inverse .border-top, .monotone-teal .inverse .border-top, .monotone-teal.inverse .border-right, .monotone-teal .inverse .border-right, .monotone-teal.inverse .border-bottom, .monotone-teal .inverse .border-bottom, .monotone-teal.inverse .border-left, .monotone-teal .inverse .border-left, .monotone-teal.inverse input, .monotone-teal .inverse input, .monotone-teal.inverse select, .monotone-teal .inverse select { border-color: #111 }
+.monotone-teal.inverse .button, .monotone-teal .inverse .button { color: #39CCCC; background-color: white }
+.monotone-teal.inverse a, .monotone-teal .inverse a { color: white }
+.monotone-teal.inverse hr, .monotone-teal .inverse hr, .monotone-teal.inverse .border, .monotone-teal .inverse .border, .monotone-teal.inverse .border-top, .monotone-teal .inverse .border-top, .monotone-teal.inverse .border-right, .monotone-teal .inverse .border-right, .monotone-teal.inverse .border-bottom, .monotone-teal .inverse .border-bottom, .monotone-teal.inverse .border-left, .monotone-teal .inverse .border-left, .monotone-teal.inverse input, .monotone-teal .inverse input, .monotone-teal.inverse select, .monotone-teal .inverse select { border-color: white }
+.monotone-teal.inverse input, .monotone-teal .inverse input, .monotone-teal.inverse select, .monotone-teal .inverse select { color: white }
 .monotone-olive { color: #3D9970 }
 .monotone-olive.readable { background-color: white }
 .monotone-olive a:not(.button) { color: #3D9970; text-decoration: underline }
 .monotone-olive hr, .monotone-olive .border, .monotone-olive .border-top, .monotone-olive .border-right, .monotone-olive .border-bottom, .monotone-olive .border-left, .monotone-olive input, .monotone-olive select { border-color: #3D9970 }
-.monotone-olive input:focus, .monotone-olive select:focus { box-shadow: 0 0 0 2px #3D9970 }
-.monotone-olive code, .monotone-olive pre { background-color: color(#3D9970 alpha(.25)) }
+.monotone-olive input, .monotone-olive select { color: #3D9970; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-olive input:focus, .monotone-olive select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-olive input:focus, .monotone-olive select:focus {}
+.monotone-olive code, .monotone-olive pre { background-color: rgba(61, 153, 112, 0.25) }
 .monotone-olive.inverse, .monotone-olive .inverse, .monotone-olive .button { color: white; background-color: #3D9970 }
 .monotone-olive.inverse.readable, .monotone-olive.readable .inverse, .monotone-olive.readable .button { color: white }
 .monotone-olive.inverse .button, .monotone-olive .inverse .button { color: #3D9970; background-color: white }
 .monotone-olive.inverse a, .monotone-olive .inverse a { color: white }
 .monotone-olive.inverse hr, .monotone-olive .inverse hr, .monotone-olive.inverse .border, .monotone-olive .inverse .border, .monotone-olive.inverse .border-top, .monotone-olive .inverse .border-top, .monotone-olive.inverse .border-right, .monotone-olive .inverse .border-right, .monotone-olive.inverse .border-bottom, .monotone-olive .inverse .border-bottom, .monotone-olive.inverse .border-left, .monotone-olive .inverse .border-left, .monotone-olive.inverse input, .monotone-olive .inverse input, .monotone-olive.inverse select, .monotone-olive .inverse select { border-color: white }
+.monotone-olive.inverse input, .monotone-olive .inverse input, .monotone-olive.inverse select, .monotone-olive .inverse select { color: white }
 .monotone-green { color: #2ECC40 }
 .monotone-green.readable { background-color: #111 }
 .monotone-green a:not(.button) { color: #2ECC40; text-decoration: underline }
 .monotone-green hr, .monotone-green .border, .monotone-green .border-top, .monotone-green .border-right, .monotone-green .border-bottom, .monotone-green .border-left, .monotone-green input, .monotone-green select { border-color: #2ECC40 }
-.monotone-green input:focus, .monotone-green select:focus { box-shadow: 0 0 0 2px #2ECC40 }
-.monotone-green code, .monotone-green pre { background-color: color(#2ECC40 alpha(.25)) }
+.monotone-green input, .monotone-green select { color: #2ECC40; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-green input:focus, .monotone-green select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-green input:focus, .monotone-green select:focus {}
+.monotone-green code, .monotone-green pre { background-color: rgba(46, 204, 64, 0.25) }
 .monotone-green.inverse, .monotone-green .inverse, .monotone-green .button { color: white; background-color: #2ECC40 }
 .monotone-green.inverse.readable, .monotone-green.readable .inverse, .monotone-green.readable .button { color: #111 }
-.monotone-green.inverse .button, .monotone-green .inverse .button { color: #2ECC40; background-color: #111 }
-.monotone-green.inverse a, .monotone-green .inverse a { color: #111 }
-.monotone-green.inverse hr, .monotone-green .inverse hr, .monotone-green.inverse .border, .monotone-green .inverse .border, .monotone-green.inverse .border-top, .monotone-green .inverse .border-top, .monotone-green.inverse .border-right, .monotone-green .inverse .border-right, .monotone-green.inverse .border-bottom, .monotone-green .inverse .border-bottom, .monotone-green.inverse .border-left, .monotone-green .inverse .border-left, .monotone-green.inverse input, .monotone-green .inverse input, .monotone-green.inverse select, .monotone-green .inverse select { border-color: #111 }
+.monotone-green.inverse .button, .monotone-green .inverse .button { color: #2ECC40; background-color: white }
+.monotone-green.inverse a, .monotone-green .inverse a { color: white }
+.monotone-green.inverse hr, .monotone-green .inverse hr, .monotone-green.inverse .border, .monotone-green .inverse .border, .monotone-green.inverse .border-top, .monotone-green .inverse .border-top, .monotone-green.inverse .border-right, .monotone-green .inverse .border-right, .monotone-green.inverse .border-bottom, .monotone-green .inverse .border-bottom, .monotone-green.inverse .border-left, .monotone-green .inverse .border-left, .monotone-green.inverse input, .monotone-green .inverse input, .monotone-green.inverse select, .monotone-green .inverse select { border-color: white }
+.monotone-green.inverse input, .monotone-green .inverse input, .monotone-green.inverse select, .monotone-green .inverse select { color: white }
 .monotone-red { color: #FF4136 }
 .monotone-red.readable { background-color: white }
 .monotone-red a:not(.button) { color: #FF4136; text-decoration: underline }
 .monotone-red hr, .monotone-red .border, .monotone-red .border-top, .monotone-red .border-right, .monotone-red .border-bottom, .monotone-red .border-left, .monotone-red input, .monotone-red select { border-color: #FF4136 }
-.monotone-red input:focus, .monotone-red select:focus { box-shadow: 0 0 0 2px #FF4136 }
-.monotone-red code, .monotone-red pre { background-color: color(#FF4136 alpha(.25)) }
+.monotone-red input, .monotone-red select { color: #FF4136; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-red input:focus, .monotone-red select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-red input:focus, .monotone-red select:focus {}
+.monotone-red code, .monotone-red pre { background-color: rgba(255, 65, 54, 0.25) }
 .monotone-red.inverse, .monotone-red .inverse, .monotone-red .button { color: white; background-color: #FF4136 }
 .monotone-red.inverse.readable, .monotone-red.readable .inverse, .monotone-red.readable .button { color: white }
 .monotone-red.inverse .button, .monotone-red .inverse .button { color: #FF4136; background-color: white }
 .monotone-red.inverse a, .monotone-red .inverse a { color: white }
 .monotone-red.inverse hr, .monotone-red .inverse hr, .monotone-red.inverse .border, .monotone-red .inverse .border, .monotone-red.inverse .border-top, .monotone-red .inverse .border-top, .monotone-red.inverse .border-right, .monotone-red .inverse .border-right, .monotone-red.inverse .border-bottom, .monotone-red .inverse .border-bottom, .monotone-red.inverse .border-left, .monotone-red .inverse .border-left, .monotone-red.inverse input, .monotone-red .inverse input, .monotone-red.inverse select, .monotone-red .inverse select { border-color: white }
+.monotone-red.inverse input, .monotone-red .inverse input, .monotone-red.inverse select, .monotone-red .inverse select { color: white }
 .monotone-maroon { color: #85144B }
 .monotone-maroon.readable { background-color: white }
 .monotone-maroon a:not(.button) { color: #85144B; text-decoration: underline }
 .monotone-maroon hr, .monotone-maroon .border, .monotone-maroon .border-top, .monotone-maroon .border-right, .monotone-maroon .border-bottom, .monotone-maroon .border-left, .monotone-maroon input, .monotone-maroon select { border-color: #85144B }
-.monotone-maroon input:focus, .monotone-maroon select:focus { box-shadow: 0 0 0 2px #85144B }
-.monotone-maroon code, .monotone-maroon pre { background-color: color(#85144B alpha(.25)) }
+.monotone-maroon input, .monotone-maroon select { color: #85144B; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-maroon input:focus, .monotone-maroon select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-maroon input:focus, .monotone-maroon select:focus {}
+.monotone-maroon code, .monotone-maroon pre { background-color: rgba(133, 20, 75, 0.25) }
 .monotone-maroon.inverse, .monotone-maroon .inverse, .monotone-maroon .button { color: white; background-color: #85144B }
 .monotone-maroon.inverse.readable, .monotone-maroon.readable .inverse, .monotone-maroon.readable .button { color: white }
 .monotone-maroon.inverse .button, .monotone-maroon .inverse .button { color: #85144B; background-color: white }
 .monotone-maroon.inverse a, .monotone-maroon .inverse a { color: white }
 .monotone-maroon.inverse hr, .monotone-maroon .inverse hr, .monotone-maroon.inverse .border, .monotone-maroon .inverse .border, .monotone-maroon.inverse .border-top, .monotone-maroon .inverse .border-top, .monotone-maroon.inverse .border-right, .monotone-maroon .inverse .border-right, .monotone-maroon.inverse .border-bottom, .monotone-maroon .inverse .border-bottom, .monotone-maroon.inverse .border-left, .monotone-maroon .inverse .border-left, .monotone-maroon.inverse input, .monotone-maroon .inverse input, .monotone-maroon.inverse select, .monotone-maroon .inverse select { border-color: white }
+.monotone-maroon.inverse input, .monotone-maroon .inverse input, .monotone-maroon.inverse select, .monotone-maroon .inverse select { color: white }
 .monotone-orange { color: #FF851B }
 .monotone-orange.readable { background-color: #111 }
 .monotone-orange a:not(.button) { color: #FF851B; text-decoration: underline }
 .monotone-orange hr, .monotone-orange .border, .monotone-orange .border-top, .monotone-orange .border-right, .monotone-orange .border-bottom, .monotone-orange .border-left, .monotone-orange input, .monotone-orange select { border-color: #FF851B }
-.monotone-orange input:focus, .monotone-orange select:focus { box-shadow: 0 0 0 2px #FF851B }
-.monotone-orange code, .monotone-orange pre { background-color: color(#FF851B alpha(.25)) }
+.monotone-orange input, .monotone-orange select { color: #FF851B; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-orange input:focus, .monotone-orange select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-orange input:focus, .monotone-orange select:focus {}
+.monotone-orange code, .monotone-orange pre { background-color: rgba(255, 133, 27, 0.25) }
 .monotone-orange.inverse, .monotone-orange .inverse, .monotone-orange .button { color: white; background-color: #FF851B }
 .monotone-orange.inverse.readable, .monotone-orange.readable .inverse, .monotone-orange.readable .button { color: #111 }
-.monotone-orange.inverse .button, .monotone-orange .inverse .button { color: #FF851B; background-color: #111 }
-.monotone-orange.inverse a, .monotone-orange .inverse a { color: #111 }
-.monotone-orange.inverse hr, .monotone-orange .inverse hr, .monotone-orange.inverse .border, .monotone-orange .inverse .border, .monotone-orange.inverse .border-top, .monotone-orange .inverse .border-top, .monotone-orange.inverse .border-right, .monotone-orange .inverse .border-right, .monotone-orange.inverse .border-bottom, .monotone-orange .inverse .border-bottom, .monotone-orange.inverse .border-left, .monotone-orange .inverse .border-left, .monotone-orange.inverse input, .monotone-orange .inverse input, .monotone-orange.inverse select, .monotone-orange .inverse select { border-color: #111 }
+.monotone-orange.inverse .button, .monotone-orange .inverse .button { color: #FF851B; background-color: white }
+.monotone-orange.inverse a, .monotone-orange .inverse a { color: white }
+.monotone-orange.inverse hr, .monotone-orange .inverse hr, .monotone-orange.inverse .border, .monotone-orange .inverse .border, .monotone-orange.inverse .border-top, .monotone-orange .inverse .border-top, .monotone-orange.inverse .border-right, .monotone-orange .inverse .border-right, .monotone-orange.inverse .border-bottom, .monotone-orange .inverse .border-bottom, .monotone-orange.inverse .border-left, .monotone-orange .inverse .border-left, .monotone-orange.inverse input, .monotone-orange .inverse input, .monotone-orange.inverse select, .monotone-orange .inverse select { border-color: white }
+.monotone-orange.inverse input, .monotone-orange .inverse input, .monotone-orange.inverse select, .monotone-orange .inverse select { color: white }
 .monotone-purple { color: #B10DC9 }
 .monotone-purple.readable { background-color: white }
 .monotone-purple a:not(.button) { color: #B10DC9; text-decoration: underline }
 .monotone-purple hr, .monotone-purple .border, .monotone-purple .border-top, .monotone-purple .border-right, .monotone-purple .border-bottom, .monotone-purple .border-left, .monotone-purple input, .monotone-purple select { border-color: #B10DC9 }
-.monotone-purple input:focus, .monotone-purple select:focus { box-shadow: 0 0 0 2px #B10DC9 }
-.monotone-purple code, .monotone-purple pre { background-color: color(#B10DC9 alpha(.25)) }
+.monotone-purple input, .monotone-purple select { color: #B10DC9; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-purple input:focus, .monotone-purple select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-purple input:focus, .monotone-purple select:focus {}
+.monotone-purple code, .monotone-purple pre { background-color: rgba(177, 13, 201, 0.25) }
 .monotone-purple.inverse, .monotone-purple .inverse, .monotone-purple .button { color: white; background-color: #B10DC9 }
 .monotone-purple.inverse.readable, .monotone-purple.readable .inverse, .monotone-purple.readable .button { color: white }
 .monotone-purple.inverse .button, .monotone-purple .inverse .button { color: #B10DC9; background-color: white }
 .monotone-purple.inverse a, .monotone-purple .inverse a { color: white }
 .monotone-purple.inverse hr, .monotone-purple .inverse hr, .monotone-purple.inverse .border, .monotone-purple .inverse .border, .monotone-purple.inverse .border-top, .monotone-purple .inverse .border-top, .monotone-purple.inverse .border-right, .monotone-purple .inverse .border-right, .monotone-purple.inverse .border-bottom, .monotone-purple .inverse .border-bottom, .monotone-purple.inverse .border-left, .monotone-purple .inverse .border-left, .monotone-purple.inverse input, .monotone-purple .inverse input, .monotone-purple.inverse select, .monotone-purple .inverse select { border-color: white }
+.monotone-purple.inverse input, .monotone-purple .inverse input, .monotone-purple.inverse select, .monotone-purple .inverse select { color: white }
 .monotone-yellow { color: #FFDC00 }
 .monotone-yellow.readable { background-color: #111 }
 .monotone-yellow a:not(.button) { color: #FFDC00; text-decoration: underline }
 .monotone-yellow hr, .monotone-yellow .border, .monotone-yellow .border-top, .monotone-yellow .border-right, .monotone-yellow .border-bottom, .monotone-yellow .border-left, .monotone-yellow input, .monotone-yellow select { border-color: #FFDC00 }
-.monotone-yellow input:focus, .monotone-yellow select:focus { box-shadow: 0 0 0 2px #FFDC00 }
-.monotone-yellow code, .monotone-yellow pre { background-color: color(#FFDC00 alpha(.25)) }
+.monotone-yellow input, .monotone-yellow select { color: #FFDC00; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-yellow input:focus, .monotone-yellow select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-yellow input:focus, .monotone-yellow select:focus {}
+.monotone-yellow code, .monotone-yellow pre { background-color: rgba(255, 220, 0, 0.25) }
 .monotone-yellow.inverse, .monotone-yellow .inverse, .monotone-yellow .button { color: white; background-color: #FFDC00 }
 .monotone-yellow.inverse.readable, .monotone-yellow.readable .inverse, .monotone-yellow.readable .button { color: #111 }
-.monotone-yellow.inverse .button, .monotone-yellow .inverse .button { color: #FFDC00; background-color: #111 }
-.monotone-yellow.inverse a, .monotone-yellow .inverse a { color: #111 }
-.monotone-yellow.inverse hr, .monotone-yellow .inverse hr, .monotone-yellow.inverse .border, .monotone-yellow .inverse .border, .monotone-yellow.inverse .border-top, .monotone-yellow .inverse .border-top, .monotone-yellow.inverse .border-right, .monotone-yellow .inverse .border-right, .monotone-yellow.inverse .border-bottom, .monotone-yellow .inverse .border-bottom, .monotone-yellow.inverse .border-left, .monotone-yellow .inverse .border-left, .monotone-yellow.inverse input, .monotone-yellow .inverse input, .monotone-yellow.inverse select, .monotone-yellow .inverse select { border-color: #111 }
+.monotone-yellow.inverse .button, .monotone-yellow .inverse .button { color: #FFDC00; background-color: white }
+.monotone-yellow.inverse a, .monotone-yellow .inverse a { color: white }
+.monotone-yellow.inverse hr, .monotone-yellow .inverse hr, .monotone-yellow.inverse .border, .monotone-yellow .inverse .border, .monotone-yellow.inverse .border-top, .monotone-yellow .inverse .border-top, .monotone-yellow.inverse .border-right, .monotone-yellow .inverse .border-right, .monotone-yellow.inverse .border-bottom, .monotone-yellow .inverse .border-bottom, .monotone-yellow.inverse .border-left, .monotone-yellow .inverse .border-left, .monotone-yellow.inverse input, .monotone-yellow .inverse input, .monotone-yellow.inverse select, .monotone-yellow .inverse select { border-color: white }
+.monotone-yellow.inverse input, .monotone-yellow .inverse input, .monotone-yellow.inverse select, .monotone-yellow .inverse select { color: white }
 .monotone-fuchsia { color: #F012BE }
 .monotone-fuchsia.readable { background-color: white }
 .monotone-fuchsia a:not(.button) { color: #F012BE; text-decoration: underline }
 .monotone-fuchsia hr, .monotone-fuchsia .border, .monotone-fuchsia .border-top, .monotone-fuchsia .border-right, .monotone-fuchsia .border-bottom, .monotone-fuchsia .border-left, .monotone-fuchsia input, .monotone-fuchsia select { border-color: #F012BE }
-.monotone-fuchsia input:focus, .monotone-fuchsia select:focus { box-shadow: 0 0 0 2px #F012BE }
-.monotone-fuchsia code, .monotone-fuchsia pre { background-color: color(#F012BE alpha(.25)) }
+.monotone-fuchsia input, .monotone-fuchsia select { color: #F012BE; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-fuchsia input:focus, .monotone-fuchsia select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-fuchsia input:focus, .monotone-fuchsia select:focus {}
+.monotone-fuchsia code, .monotone-fuchsia pre { background-color: rgba(240, 18, 190, 0.25) }
 .monotone-fuchsia.inverse, .monotone-fuchsia .inverse, .monotone-fuchsia .button { color: white; background-color: #F012BE }
 .monotone-fuchsia.inverse.readable, .monotone-fuchsia.readable .inverse, .monotone-fuchsia.readable .button { color: white }
 .monotone-fuchsia.inverse .button, .monotone-fuchsia .inverse .button { color: #F012BE; background-color: white }
 .monotone-fuchsia.inverse a, .monotone-fuchsia .inverse a { color: white }
 .monotone-fuchsia.inverse hr, .monotone-fuchsia .inverse hr, .monotone-fuchsia.inverse .border, .monotone-fuchsia .inverse .border, .monotone-fuchsia.inverse .border-top, .monotone-fuchsia .inverse .border-top, .monotone-fuchsia.inverse .border-right, .monotone-fuchsia .inverse .border-right, .monotone-fuchsia.inverse .border-bottom, .monotone-fuchsia .inverse .border-bottom, .monotone-fuchsia.inverse .border-left, .monotone-fuchsia .inverse .border-left, .monotone-fuchsia.inverse input, .monotone-fuchsia .inverse input, .monotone-fuchsia.inverse select, .monotone-fuchsia .inverse select { border-color: white }
+.monotone-fuchsia.inverse input, .monotone-fuchsia .inverse input, .monotone-fuchsia.inverse select, .monotone-fuchsia .inverse select { color: white }
 .monotone-gray { color: #aaa }
 .monotone-gray.readable { background-color: #111 }
 .monotone-gray a:not(.button) { color: #aaa; text-decoration: underline }
 .monotone-gray hr, .monotone-gray .border, .monotone-gray .border-top, .monotone-gray .border-right, .monotone-gray .border-bottom, .monotone-gray .border-left, .monotone-gray input, .monotone-gray select { border-color: #aaa }
-.monotone-gray input:focus, .monotone-gray select:focus { box-shadow: 0 0 0 2px #aaa }
-.monotone-gray code, .monotone-gray pre { background-color: color(#aaa alpha(.25)) }
+.monotone-gray input, .monotone-gray select { color: #aaa; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-gray input:focus, .monotone-gray select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-gray input:focus, .monotone-gray select:focus {}
+.monotone-gray code, .monotone-gray pre { background-color: rgba(170, 170, 170, 0.25) }
 .monotone-gray.inverse, .monotone-gray .inverse, .monotone-gray .button { color: white; background-color: #aaa }
 .monotone-gray.inverse.readable, .monotone-gray.readable .inverse, .monotone-gray.readable .button { color: #111 }
-.monotone-gray.inverse .button, .monotone-gray .inverse .button { color: #aaa; background-color: #111 }
-.monotone-gray.inverse a, .monotone-gray .inverse a { color: #111 }
-.monotone-gray.inverse hr, .monotone-gray .inverse hr, .monotone-gray.inverse .border, .monotone-gray .inverse .border, .monotone-gray.inverse .border-top, .monotone-gray .inverse .border-top, .monotone-gray.inverse .border-right, .monotone-gray .inverse .border-right, .monotone-gray.inverse .border-bottom, .monotone-gray .inverse .border-bottom, .monotone-gray.inverse .border-left, .monotone-gray .inverse .border-left, .monotone-gray.inverse input, .monotone-gray .inverse input, .monotone-gray.inverse select, .monotone-gray .inverse select { border-color: #111 }
+.monotone-gray.inverse .button, .monotone-gray .inverse .button { color: #aaa; background-color: white }
+.monotone-gray.inverse a, .monotone-gray .inverse a { color: white }
+.monotone-gray.inverse hr, .monotone-gray .inverse hr, .monotone-gray.inverse .border, .monotone-gray .inverse .border, .monotone-gray.inverse .border-top, .monotone-gray .inverse .border-top, .monotone-gray.inverse .border-right, .monotone-gray .inverse .border-right, .monotone-gray.inverse .border-bottom, .monotone-gray .inverse .border-bottom, .monotone-gray.inverse .border-left, .monotone-gray .inverse .border-left, .monotone-gray.inverse input, .monotone-gray .inverse input, .monotone-gray.inverse select, .monotone-gray .inverse select { border-color: white }
+.monotone-gray.inverse input, .monotone-gray .inverse input, .monotone-gray.inverse select, .monotone-gray .inverse select { color: white }
 .monotone-white { color: #fff }
 .monotone-white.readable { background-color: #111 }
 .monotone-white a:not(.button) { color: #fff; text-decoration: underline }
 .monotone-white hr, .monotone-white .border, .monotone-white .border-top, .monotone-white .border-right, .monotone-white .border-bottom, .monotone-white .border-left, .monotone-white input, .monotone-white select { border-color: #fff }
-.monotone-white input:focus, .monotone-white select:focus { box-shadow: 0 0 0 2px #fff }
-.monotone-white code, .monotone-white pre { background-color: color(#fff alpha(.25)) }
+.monotone-white input, .monotone-white select { color: #fff; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-white input:focus, .monotone-white select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-white input:focus, .monotone-white select:focus {}
+.monotone-white code, .monotone-white pre { background-color: rgba(255, 255, 255, 0.25) }
 .monotone-white.inverse, .monotone-white .inverse, .monotone-white .button { color: white; background-color: #fff }
 .monotone-white.inverse.readable, .monotone-white.readable .inverse, .monotone-white.readable .button { color: #111 }
-.monotone-white.inverse .button, .monotone-white .inverse .button { color: #fff; background-color: #111 }
-.monotone-white.inverse a, .monotone-white .inverse a { color: #111 }
-.monotone-white.inverse hr, .monotone-white .inverse hr, .monotone-white.inverse .border, .monotone-white .inverse .border, .monotone-white.inverse .border-top, .monotone-white .inverse .border-top, .monotone-white.inverse .border-right, .monotone-white .inverse .border-right, .monotone-white.inverse .border-bottom, .monotone-white .inverse .border-bottom, .monotone-white.inverse .border-left, .monotone-white .inverse .border-left, .monotone-white.inverse input, .monotone-white .inverse input, .monotone-white.inverse select, .monotone-white .inverse select { border-color: #111 }
+.monotone-white.inverse .button, .monotone-white .inverse .button { color: #fff; background-color: white }
+.monotone-white.inverse a, .monotone-white .inverse a { color: white }
+.monotone-white.inverse hr, .monotone-white .inverse hr, .monotone-white.inverse .border, .monotone-white .inverse .border, .monotone-white.inverse .border-top, .monotone-white .inverse .border-top, .monotone-white.inverse .border-right, .monotone-white .inverse .border-right, .monotone-white.inverse .border-bottom, .monotone-white .inverse .border-bottom, .monotone-white.inverse .border-left, .monotone-white .inverse .border-left, .monotone-white.inverse input, .monotone-white .inverse input, .monotone-white.inverse select, .monotone-white .inverse select { border-color: white }
+.monotone-white.inverse input, .monotone-white .inverse input, .monotone-white.inverse select, .monotone-white .inverse select { color: white }
 .monotone-black { color: #111 }
 .monotone-black.readable { background-color: white }
 .monotone-black a:not(.button) { color: #111; text-decoration: underline }
 .monotone-black hr, .monotone-black .border, .monotone-black .border-top, .monotone-black .border-right, .monotone-black .border-bottom, .monotone-black .border-left, .monotone-black input, .monotone-black select { border-color: #111 }
-.monotone-black input:focus, .monotone-black select:focus { box-shadow: 0 0 0 2px #111 }
-.monotone-black code, .monotone-black pre { background-color: color(#111 alpha(.25)) }
+.monotone-black input, .monotone-black select { color: #111; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-black input:focus, .monotone-black select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-black input:focus, .monotone-black select:focus {}
+.monotone-black code, .monotone-black pre { background-color: rgba(17, 17, 17, 0.25) }
 .monotone-black.inverse, .monotone-black .inverse, .monotone-black .button { color: white; background-color: #111 }
 .monotone-black.inverse.readable, .monotone-black.readable .inverse, .monotone-black.readable .button { color: white }
 .monotone-black.inverse .button, .monotone-black .inverse .button { color: #111; background-color: white }
 .monotone-black.inverse a, .monotone-black .inverse a { color: white }
 .monotone-black.inverse hr, .monotone-black .inverse hr, .monotone-black.inverse .border, .monotone-black .inverse .border, .monotone-black.inverse .border-top, .monotone-black .inverse .border-top, .monotone-black.inverse .border-right, .monotone-black .inverse .border-right, .monotone-black.inverse .border-bottom, .monotone-black .inverse .border-bottom, .monotone-black.inverse .border-left, .monotone-black .inverse .border-left, .monotone-black.inverse input, .monotone-black .inverse input, .monotone-black.inverse select, .monotone-black .inverse select { border-color: white }
+.monotone-black.inverse input, .monotone-black .inverse input, .monotone-black.inverse select, .monotone-black .inverse select { color: white }
 .monotone-silver { color: #ddd }
 .monotone-silver.readable { background-color: #111 }
 .monotone-silver a:not(.button) { color: #ddd; text-decoration: underline }
 .monotone-silver hr, .monotone-silver .border, .monotone-silver .border-top, .monotone-silver .border-right, .monotone-silver .border-bottom, .monotone-silver .border-left, .monotone-silver input, .monotone-silver select { border-color: #ddd }
-.monotone-silver input:focus, .monotone-silver select:focus { box-shadow: 0 0 0 2px #ddd }
-.monotone-silver code, .monotone-silver pre { background-color: color(#ddd alpha(.25)) }
+.monotone-silver input, .monotone-silver select { color: #ddd; background-color: transparent; border-width: 1px; border-style: solid; border-radius: 3px }
+.monotone-silver input:focus, .monotone-silver select:focus { box-shadow: 0 0 0 3px; outline: none }
+.monotone-silver input:focus, .monotone-silver select:focus {}
+.monotone-silver code, .monotone-silver pre { background-color: rgba(221, 221, 221, 0.25) }
 .monotone-silver.inverse, .monotone-silver .inverse, .monotone-silver .button { color: white; background-color: #ddd }
 .monotone-silver.inverse.readable, .monotone-silver.readable .inverse, .monotone-silver.readable .button { color: #111 }
-.monotone-silver.inverse .button, .monotone-silver .inverse .button { color: #ddd; background-color: #111 }
-.monotone-silver.inverse a, .monotone-silver .inverse a { color: #111 }
-.monotone-silver.inverse hr, .monotone-silver .inverse hr, .monotone-silver.inverse .border, .monotone-silver .inverse .border, .monotone-silver.inverse .border-top, .monotone-silver .inverse .border-top, .monotone-silver.inverse .border-right, .monotone-silver .inverse .border-right, .monotone-silver.inverse .border-bottom, .monotone-silver .inverse .border-bottom, .monotone-silver.inverse .border-left, .monotone-silver .inverse .border-left, .monotone-silver.inverse input, .monotone-silver .inverse input, .monotone-silver.inverse select, .monotone-silver .inverse select { border-color: #111 }
+.monotone-silver.inverse .button, .monotone-silver .inverse .button { color: #ddd; background-color: white }
+.monotone-silver.inverse a, .monotone-silver .inverse a { color: white }
+.monotone-silver.inverse hr, .monotone-silver .inverse hr, .monotone-silver.inverse .border, .monotone-silver .inverse .border, .monotone-silver.inverse .border-top, .monotone-silver .inverse .border-top, .monotone-silver.inverse .border-right, .monotone-silver .inverse .border-right, .monotone-silver.inverse .border-bottom, .monotone-silver .inverse .border-bottom, .monotone-silver.inverse .border-left, .monotone-silver .inverse .border-left, .monotone-silver.inverse input, .monotone-silver .inverse input, .monotone-silver.inverse select, .monotone-silver .inverse select { border-color: white }
+.monotone-silver.inverse input, .monotone-silver .inverse input, .monotone-silver.inverse select, .monotone-silver .inverse select { color: white }

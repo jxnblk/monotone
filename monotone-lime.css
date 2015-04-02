@@ -11,11 +11,20 @@
 .monotone-lime hr, .monotone-lime .border, .monotone-lime .border-top, .monotone-lime .border-right, .monotone-lime .border-bottom, .monotone-lime .border-left, .monotone-lime input, .monotone-lime select {
     border-color: #01FF70
 }
-.monotone-lime input:focus, .monotone-lime select:focus {
-    box-shadow: 0 0 0 2px #01FF70
+.monotone-lime input, .monotone-lime select {
+    color: #01FF70;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px
 }
+.monotone-lime input:focus, .monotone-lime select:focus {
+    box-shadow: 0 0 0 3px;
+    outline: none
+}
+.monotone-lime input:focus, .monotone-lime select:focus {}
 .monotone-lime code, .monotone-lime pre {
-    background-color: color(#01FF70 alpha(.25))
+    background-color: rgba(1, 255, 112, 0.25)
 }
 .monotone-lime.inverse, .monotone-lime .inverse, .monotone-lime .button {
     color: white;
@@ -26,11 +35,14 @@
 }
 .monotone-lime.inverse .button, .monotone-lime .inverse .button {
     color: #01FF70;
-    background-color: #111
+    background-color: white
 }
 .monotone-lime.inverse a, .monotone-lime .inverse a {
-    color: #111
+    color: white
 }
 .monotone-lime.inverse hr, .monotone-lime .inverse hr, .monotone-lime.inverse .border, .monotone-lime .inverse .border, .monotone-lime.inverse .border-top, .monotone-lime .inverse .border-top, .monotone-lime.inverse .border-right, .monotone-lime .inverse .border-right, .monotone-lime.inverse .border-bottom, .monotone-lime .inverse .border-bottom, .monotone-lime.inverse .border-left, .monotone-lime .inverse .border-left, .monotone-lime.inverse input, .monotone-lime .inverse input, .monotone-lime.inverse select, .monotone-lime .inverse select {
-    border-color: #111
+    border-color: white
+}
+.monotone-lime.inverse input, .monotone-lime .inverse input, .monotone-lime.inverse select, .monotone-lime .inverse select {
+    color: white
 }
