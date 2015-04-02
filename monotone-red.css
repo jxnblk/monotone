@@ -1,7 +1,10 @@
 .monotone-red {
     color: #FF4136
 }
-.monotone-red a {
+.monotone-red.readable {
+    background-color: white
+}
+.monotone-red a:not(.button) {
     color: #FF4136;
     text-decoration: underline
 }
@@ -17,6 +20,9 @@
 .monotone-red.inverse, .monotone-red .inverse, .monotone-red .button {
     color: white;
     background-color: #FF4136
+}
+.monotone-red.inverse.readable, .monotone-red.readable .inverse, .monotone-red.readable .button {
+    color: white
 }
 .monotone-red.inverse .button, .monotone-red .inverse .button {
     color: #FF4136;

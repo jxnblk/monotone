@@ -1,7 +1,10 @@
 .monotone-maroon {
     color: #85144B
 }
-.monotone-maroon a {
+.monotone-maroon.readable {
+    background-color: white
+}
+.monotone-maroon a:not(.button) {
     color: #85144B;
     text-decoration: underline
 }
@@ -17,6 +20,9 @@
 .monotone-maroon.inverse, .monotone-maroon .inverse, .monotone-maroon .button {
     color: white;
     background-color: #85144B
+}
+.monotone-maroon.inverse.readable, .monotone-maroon.readable .inverse, .monotone-maroon.readable .button {
+    color: white
 }
 .monotone-maroon.inverse .button, .monotone-maroon .inverse .button {
     color: #85144B;

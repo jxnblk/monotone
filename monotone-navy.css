@@ -1,7 +1,10 @@
 .monotone-navy {
     color: #001F3F
 }
-.monotone-navy a {
+.monotone-navy.readable {
+    background-color: white
+}
+.monotone-navy a:not(.button) {
     color: #001F3F;
     text-decoration: underline
 }
@@ -17,6 +20,9 @@
 .monotone-navy.inverse, .monotone-navy .inverse, .monotone-navy .button {
     color: white;
     background-color: #001F3F
+}
+.monotone-navy.inverse.readable, .monotone-navy.readable .inverse, .monotone-navy.readable .button {
+    color: white
 }
 .monotone-navy.inverse .button, .monotone-navy .inverse .button {
     color: #001F3F;

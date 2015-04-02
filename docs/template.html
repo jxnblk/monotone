@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Monotone</title>
+  <link rel="stylesheet" href="http://d2v52k3cl9vedd.cloudfront.net/monobass/1.0.2/monobass.min.css">
+  <link rel="stylesheet" href="docs/monotone.css">
+</head>
+<body>
+
+  <% sections.forEach(function(s) { %>
+    <section id="<%= s.name %>"
+      class="px2 py4 monotone-<%= s.name %>"
+      style="min-height:100vh;box-sizing:border-box;">
+      <div class="container">
+        <div class="flex flex-center mxn2">
+          <div class="flex-auto px2">
+            <h1 class="m0">
+              <a href="#<%= s.name %>">Monotone <%= s.title %></a>
+              <span class="h4 ml1">v<%= version %></span>
+            </h1>
+            <p class="m0"><%= description %></p>
+          </div>
+          <div class="px2">
+            <a href="//github.com/jxnblk/monotone" class="button">Github</a>
+          </div>
+        </div>
+        <hr class="border-thick">
+        <div class="sm-flex flex-center mxn2 mb3">
+          <div class="sm-col-6 px2">
+            <dl>
+              <dt class="h2 bold">mon·o·chrome</dt>
+              <dd class="m0">
+                <b>/ˈmänəˌkrōm/</b><br>
+                <i>noun</i>
+                <ol>
+                  <li>a photograph or picture developed or executed in black and white or in varying tones of only one color.</li>
+                </ol>
+              </dd>
+            </dl>
+          </div>
+          <div class="sm-col-6 px2">
+            <dl>
+              <dt class="h2 bold">mon·o·tone</dt>
+              <dd class="m0">
+                <b>/ˈmänəˌtōn/</b><br>
+                <i>noun</i>
+                <ol>
+                  <li>a continuing sound, especially of someone's voice, that is unchanging in pitch and without intonation. </li>
+                </ol>
+              </dd>
+            </dl>
+          </div>
+        </div>
+
+        <div class="p2 inverse display-none">
+          <h1 class="m0">Inverse</h1>
+          <h2 class="m0">Sepia</h2>
+          <h2 class="m0">Cyanotype</h2>
+          <h2 class="m0">Daguerreotypes</h2>
+          <h2 class="m0">Ambrotypes</h2>
+          <h2 class="m0">Tintypes</h2>
+        </div>
+      </div>
+    </section>
+  <% }) %>
+
+</body>
+</html>

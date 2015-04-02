@@ -1,7 +1,10 @@
 .monotone-lime {
     color: #01FF70
 }
-.monotone-lime a {
+.monotone-lime.readable {
+    background-color: #111
+}
+.monotone-lime a:not(.button) {
     color: #01FF70;
     text-decoration: underline
 }
@@ -15,8 +18,11 @@
     background-color: color(#01FF70 alpha(.25))
 }
 .monotone-lime.inverse, .monotone-lime .inverse, .monotone-lime .button {
-    color: #111;
+    color: white;
     background-color: #01FF70
+}
+.monotone-lime.inverse.readable, .monotone-lime.readable .inverse, .monotone-lime.readable .button {
+    color: #111
 }
 .monotone-lime.inverse .button, .monotone-lime .inverse .button {
     color: #01FF70;

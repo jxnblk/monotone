@@ -17,7 +17,9 @@ var themes = Object.keys(colors).map(function(key) {
   var rules = [
     postcss.rule({ selector: '.monotone-' + key, after: ' ' })
       .append(postcss.decl({ prop: 'color', value: hex, before: ' ' })),
-    postcss.rule({ selector: '.monotone-' + key + ' a', })
+    postcss.rule({ selector: '.monotone-' + key + '.readable', after: ' ' })
+      .append(postcss.decl({ prop: 'background-color', value: dark ? 'white' : colors.black, before: ' ' })),
+    postcss.rule({ selector: '.monotone-' + key + ' a:not(.button)', })
       .append(postcss.decl({ prop: 'color', value: hex }))
       .append(postcss.decl({ prop: 'text-decoration', value: 'underline' })),
     postcss.rule({ selectors: [
@@ -52,8 +54,16 @@ var themes = Object.keys(colors).map(function(key) {
           '.monotone-' + key + ' .button',
         ]
       })
-      .append(postcss.decl({ prop: 'color', value: dark ? 'white' : colors.black }))
+      .append(postcss.decl({ prop: 'color', value: 'white' }))
       .append(postcss.decl({ prop: 'background-color', value: hex })),
+    postcss.rule({
+      selectors: [
+        '.monotone-' + key + '.inverse.readable',
+        '.monotone-' + key + '.readable .inverse',
+        '.monotone-' + key + '.readable .button',
+      ]
+    })
+      .append(postcss.decl({ prop: 'color', value: dark ? 'white' : colors.black })),
     postcss.rule({
         selectors: [
           '.monotone-' + key + '.inverse .button',
@@ -123,5 +133,5 @@ themes.forEach(function(theme) {
 
 var css = root.toResult().css;
 
-fs.writeFileSync('monotone.css', css);
+fs.writeFileSync('docs/monotone.css', css);
 

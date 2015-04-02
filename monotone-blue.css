@@ -1,7 +1,10 @@
 .monotone-blue {
     color: #0074D9
 }
-.monotone-blue a {
+.monotone-blue.readable {
+    background-color: white
+}
+.monotone-blue a:not(.button) {
     color: #0074D9;
     text-decoration: underline
 }
@@ -17,6 +20,9 @@
 .monotone-blue.inverse, .monotone-blue .inverse, .monotone-blue .button {
     color: white;
     background-color: #0074D9
+}
+.monotone-blue.inverse.readable, .monotone-blue.readable .inverse, .monotone-blue.readable .button {
+    color: white
 }
 .monotone-blue.inverse .button, .monotone-blue .inverse .button {
     color: #0074D9;

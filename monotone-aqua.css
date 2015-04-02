@@ -1,7 +1,10 @@
 .monotone-aqua {
     color: #7FDBFF
 }
-.monotone-aqua a {
+.monotone-aqua.readable {
+    background-color: #111
+}
+.monotone-aqua a:not(.button) {
     color: #7FDBFF;
     text-decoration: underline
 }
@@ -15,8 +18,11 @@
     background-color: color(#7FDBFF alpha(.25))
 }
 .monotone-aqua.inverse, .monotone-aqua .inverse, .monotone-aqua .button {
-    color: #111;
+    color: white;
     background-color: #7FDBFF
+}
+.monotone-aqua.inverse.readable, .monotone-aqua.readable .inverse, .monotone-aqua.readable .button {
+    color: #111
 }
 .monotone-aqua.inverse .button, .monotone-aqua .inverse .button {
     color: #7FDBFF;

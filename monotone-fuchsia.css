@@ -1,7 +1,10 @@
 .monotone-fuchsia {
     color: #F012BE
 }
-.monotone-fuchsia a {
+.monotone-fuchsia.readable {
+    background-color: white
+}
+.monotone-fuchsia a:not(.button) {
     color: #F012BE;
     text-decoration: underline
 }
@@ -17,6 +20,9 @@
 .monotone-fuchsia.inverse, .monotone-fuchsia .inverse, .monotone-fuchsia .button {
     color: white;
     background-color: #F012BE
+}
+.monotone-fuchsia.inverse.readable, .monotone-fuchsia.readable .inverse, .monotone-fuchsia.readable .button {
+    color: white
 }
 .monotone-fuchsia.inverse .button, .monotone-fuchsia .inverse .button {
     color: #F012BE;

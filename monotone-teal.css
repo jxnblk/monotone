@@ -1,7 +1,10 @@
 .monotone-teal {
     color: #39CCCC
 }
-.monotone-teal a {
+.monotone-teal.readable {
+    background-color: #111
+}
+.monotone-teal a:not(.button) {
     color: #39CCCC;
     text-decoration: underline
 }
@@ -15,8 +18,11 @@
     background-color: color(#39CCCC alpha(.25))
 }
 .monotone-teal.inverse, .monotone-teal .inverse, .monotone-teal .button {
-    color: #111;
+    color: white;
     background-color: #39CCCC
+}
+.monotone-teal.inverse.readable, .monotone-teal.readable .inverse, .monotone-teal.readable .button {
+    color: #111
 }
 .monotone-teal.inverse .button, .monotone-teal .inverse .button {
     color: #39CCCC;

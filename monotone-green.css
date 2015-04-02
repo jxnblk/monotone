@@ -1,7 +1,10 @@
 .monotone-green {
     color: #2ECC40
 }
-.monotone-green a {
+.monotone-green.readable {
+    background-color: #111
+}
+.monotone-green a:not(.button) {
     color: #2ECC40;
     text-decoration: underline
 }
@@ -15,8 +18,11 @@
     background-color: color(#2ECC40 alpha(.25))
 }
 .monotone-green.inverse, .monotone-green .inverse, .monotone-green .button {
-    color: #111;
+    color: white;
     background-color: #2ECC40
+}
+.monotone-green.inverse.readable, .monotone-green.readable .inverse, .monotone-green.readable .button {
+    color: #111
 }
 .monotone-green.inverse .button, .monotone-green .inverse .button {
     color: #2ECC40;

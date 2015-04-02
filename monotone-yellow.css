@@ -1,7 +1,10 @@
 .monotone-yellow {
     color: #FFDC00
 }
-.monotone-yellow a {
+.monotone-yellow.readable {
+    background-color: #111
+}
+.monotone-yellow a:not(.button) {
     color: #FFDC00;
     text-decoration: underline
 }
@@ -15,8 +18,11 @@
     background-color: color(#FFDC00 alpha(.25))
 }
 .monotone-yellow.inverse, .monotone-yellow .inverse, .monotone-yellow .button {
-    color: #111;
+    color: white;
     background-color: #FFDC00
+}
+.monotone-yellow.inverse.readable, .monotone-yellow.readable .inverse, .monotone-yellow.readable .button {
+    color: #111
 }
 .monotone-yellow.inverse .button, .monotone-yellow .inverse .button {
     color: #FFDC00;

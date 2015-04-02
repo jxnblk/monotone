@@ -1,7 +1,10 @@
 .monotone-silver {
     color: #ddd
 }
-.monotone-silver a {
+.monotone-silver.readable {
+    background-color: #111
+}
+.monotone-silver a:not(.button) {
     color: #ddd;
     text-decoration: underline
 }
@@ -15,8 +18,11 @@
     background-color: color(#ddd alpha(.25))
 }
 .monotone-silver.inverse, .monotone-silver .inverse, .monotone-silver .button {
-    color: #111;
+    color: white;
     background-color: #ddd
+}
+.monotone-silver.inverse.readable, .monotone-silver.readable .inverse, .monotone-silver.readable .button {
+    color: #111
 }
 .monotone-silver.inverse .button, .monotone-silver .inverse .button {
     color: #ddd;

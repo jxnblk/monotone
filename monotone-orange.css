@@ -1,7 +1,10 @@
 .monotone-orange {
     color: #FF851B
 }
-.monotone-orange a {
+.monotone-orange.readable {
+    background-color: #111
+}
+.monotone-orange a:not(.button) {
     color: #FF851B;
     text-decoration: underline
 }
@@ -15,8 +18,11 @@
     background-color: color(#FF851B alpha(.25))
 }
 .monotone-orange.inverse, .monotone-orange .inverse, .monotone-orange .button {
-    color: #111;
+    color: white;
     background-color: #FF851B
+}
+.monotone-orange.inverse.readable, .monotone-orange.readable .inverse, .monotone-orange.readable .button {
+    color: #111
 }
 .monotone-orange.inverse .button, .monotone-orange .inverse .button {
     color: #FF851B;

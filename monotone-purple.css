@@ -1,7 +1,10 @@
 .monotone-purple {
     color: #B10DC9
 }
-.monotone-purple a {
+.monotone-purple.readable {
+    background-color: white
+}
+.monotone-purple a:not(.button) {
     color: #B10DC9;
     text-decoration: underline
 }
@@ -17,6 +20,9 @@
 .monotone-purple.inverse, .monotone-purple .inverse, .monotone-purple .button {
     color: white;
     background-color: #B10DC9
+}
+.monotone-purple.inverse.readable, .monotone-purple.readable .inverse, .monotone-purple.readable .button {
+    color: white
 }
 .monotone-purple.inverse .button, .monotone-purple .inverse .button {
     color: #B10DC9;

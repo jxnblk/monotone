@@ -1,7 +1,10 @@
 .monotone-olive {
     color: #3D9970
 }
-.monotone-olive a {
+.monotone-olive.readable {
+    background-color: white
+}
+.monotone-olive a:not(.button) {
     color: #3D9970;
     text-decoration: underline
 }
@@ -17,6 +20,9 @@
 .monotone-olive.inverse, .monotone-olive .inverse, .monotone-olive .button {
     color: white;
     background-color: #3D9970
+}
+.monotone-olive.inverse.readable, .monotone-olive.readable .inverse, .monotone-olive.readable .button {
+    color: white
 }
 .monotone-olive.inverse .button, .monotone-olive .inverse .button {
     color: #3D9970;
