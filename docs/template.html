@@ -101,6 +101,13 @@
           </div>
         </div>
 
+        <div class="center h5 bold py2">
+          <div class="inline-block px2"><%= filesize(s.stats.gzipSize) %></div>
+          <div class="inline-block px2"><%= s.stats.rules.length %> Rules</div>
+          <div class="inline-block px2"><%= s.stats.aggregates.selectors %> Selectors</div>
+          <div class="inline-block px2"><%= s.stats.aggregates.declarations %> Declarations</div>
+        </div>
+
       </div>
     </section>
   <% }) %>

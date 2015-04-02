@@ -4,25 +4,24 @@ var fs = require('fs');
 var path = require('path');
 var colors = require('colors.css');
 var data = require('../package.json');
+var cssstats = require('cssstats');
+var filesize = require('filesize');
 
-//var files = fs.readdirSync(path.join(__dirname, '..'));
 var template = _.template(fs.readFileSync(path.join(__dirname, './template.html'), 'utf8'));
-//var data = {};
 var html;
 
-//files = files.filter(function(filename) {
-//  return filename.match(/\.css$/) && filename.match(/monotone\-/) && filename !== 'monotone-white.css';
-//});
 
-
+data.filesize = filesize;
 data.sections = Object.keys(colors).map(function(key) {
   var color = colors[key];
-  //var name = filename.replace(/^monotone\-|\.css$/g, '');
   var title = _.capitalize(key);
+  var css = fs.readFileSync('monotone-' + key + '.css', 'utf8');
 
   return {
     name: key,
     title: title,
+    css: css,
+    stats: cssstats(css),
   }
 });
 
