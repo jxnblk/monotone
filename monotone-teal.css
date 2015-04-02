@@ -1,0 +1,30 @@
+.monotone-teal {
+    color: #39CCCC
+}
+.monotone-teal a {
+    color: #39CCCC;
+    text-decoration: underline
+}
+.monotone-teal hr, .monotone-teal .border, .monotone-teal .border-top, .monotone-teal .border-right, .monotone-teal .border-bottom, .monotone-teal .border-left, .monotone-teal input, .monotone-teal select {
+    border-color: #39CCCC
+}
+.monotone-teal input:focus, .monotone-teal select:focus {
+    box-shadow: 0 0 0 2px #39CCCC
+}
+.monotone-teal code, .monotone-teal pre {
+    background-color: color(#39CCCC alpha(.25))
+}
+.monotone-teal.inverse, .monotone-teal .inverse, .monotone-teal .button {
+    color: #111;
+    background-color: #39CCCC
+}
+.monotone-teal.inverse .button, .monotone-teal .inverse .button {
+    color: #39CCCC;
+    background-color: #111
+}
+.monotone-teal.inverse a, .monotone-teal .inverse a {
+    color: #111
+}
+.monotone-teal.inverse hr, .monotone-teal .inverse hr, .monotone-teal.inverse .border, .monotone-teal .inverse .border, .monotone-teal.inverse .border-top, .monotone-teal .inverse .border-top, .monotone-teal.inverse .border-right, .monotone-teal .inverse .border-right, .monotone-teal.inverse .border-bottom, .monotone-teal .inverse .border-bottom, .monotone-teal.inverse .border-left, .monotone-teal .inverse .border-left, .monotone-teal.inverse input, .monotone-teal .inverse input, .monotone-teal.inverse select, .monotone-teal .inverse select {
+    border-color: #111
+}

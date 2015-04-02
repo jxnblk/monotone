@@ -1,0 +1,30 @@
+.monotone-yellow {
+    color: #FFDC00
+}
+.monotone-yellow a {
+    color: #FFDC00;
+    text-decoration: underline
+}
+.monotone-yellow hr, .monotone-yellow .border, .monotone-yellow .border-top, .monotone-yellow .border-right, .monotone-yellow .border-bottom, .monotone-yellow .border-left, .monotone-yellow input, .monotone-yellow select {
+    border-color: #FFDC00
+}
+.monotone-yellow input:focus, .monotone-yellow select:focus {
+    box-shadow: 0 0 0 2px #FFDC00
+}
+.monotone-yellow code, .monotone-yellow pre {
+    background-color: color(#FFDC00 alpha(.25))
+}
+.monotone-yellow.inverse, .monotone-yellow .inverse, .monotone-yellow .button {
+    color: #111;
+    background-color: #FFDC00
+}
+.monotone-yellow.inverse .button, .monotone-yellow .inverse .button {
+    color: #FFDC00;
+    background-color: #111
+}
+.monotone-yellow.inverse a, .monotone-yellow .inverse a {
+    color: #111
+}
+.monotone-yellow.inverse hr, .monotone-yellow .inverse hr, .monotone-yellow.inverse .border, .monotone-yellow .inverse .border, .monotone-yellow.inverse .border-top, .monotone-yellow .inverse .border-top, .monotone-yellow.inverse .border-right, .monotone-yellow .inverse .border-right, .monotone-yellow.inverse .border-bottom, .monotone-yellow .inverse .border-bottom, .monotone-yellow.inverse .border-left, .monotone-yellow .inverse .border-left, .monotone-yellow.inverse input, .monotone-yellow .inverse input, .monotone-yellow.inverse select, .monotone-yellow .inverse select {
+    border-color: #111
+}

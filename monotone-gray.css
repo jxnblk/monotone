@@ -1,0 +1,30 @@
+.monotone-gray {
+    color: #aaa
+}
+.monotone-gray a {
+    color: #aaa;
+    text-decoration: underline
+}
+.monotone-gray hr, .monotone-gray .border, .monotone-gray .border-top, .monotone-gray .border-right, .monotone-gray .border-bottom, .monotone-gray .border-left, .monotone-gray input, .monotone-gray select {
+    border-color: #aaa
+}
+.monotone-gray input:focus, .monotone-gray select:focus {
+    box-shadow: 0 0 0 2px #aaa
+}
+.monotone-gray code, .monotone-gray pre {
+    background-color: color(#aaa alpha(.25))
+}
+.monotone-gray.inverse, .monotone-gray .inverse, .monotone-gray .button {
+    color: #111;
+    background-color: #aaa
+}
+.monotone-gray.inverse .button, .monotone-gray .inverse .button {
+    color: #aaa;
+    background-color: #111
+}
+.monotone-gray.inverse a, .monotone-gray .inverse a {
+    color: #111
+}
+.monotone-gray.inverse hr, .monotone-gray .inverse hr, .monotone-gray.inverse .border, .monotone-gray .inverse .border, .monotone-gray.inverse .border-top, .monotone-gray .inverse .border-top, .monotone-gray.inverse .border-right, .monotone-gray .inverse .border-right, .monotone-gray.inverse .border-bottom, .monotone-gray .inverse .border-bottom, .monotone-gray.inverse .border-left, .monotone-gray .inverse .border-left, .monotone-gray.inverse input, .monotone-gray .inverse input, .monotone-gray.inverse select, .monotone-gray .inverse select {
+    border-color: #111
+}

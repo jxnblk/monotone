@@ -1,0 +1,30 @@
+.monotone-fuchsia {
+    color: #F012BE
+}
+.monotone-fuchsia a {
+    color: #F012BE;
+    text-decoration: underline
+}
+.monotone-fuchsia hr, .monotone-fuchsia .border, .monotone-fuchsia .border-top, .monotone-fuchsia .border-right, .monotone-fuchsia .border-bottom, .monotone-fuchsia .border-left, .monotone-fuchsia input, .monotone-fuchsia select {
+    border-color: #F012BE
+}
+.monotone-fuchsia input:focus, .monotone-fuchsia select:focus {
+    box-shadow: 0 0 0 2px #F012BE
+}
+.monotone-fuchsia code, .monotone-fuchsia pre {
+    background-color: color(#F012BE alpha(.25))
+}
+.monotone-fuchsia.inverse, .monotone-fuchsia .inverse, .monotone-fuchsia .button {
+    color: white;
+    background-color: #F012BE
+}
+.monotone-fuchsia.inverse .button, .monotone-fuchsia .inverse .button {
+    color: #F012BE;
+    background-color: white
+}
+.monotone-fuchsia.inverse a, .monotone-fuchsia .inverse a {
+    color: white
+}
+.monotone-fuchsia.inverse hr, .monotone-fuchsia .inverse hr, .monotone-fuchsia.inverse .border, .monotone-fuchsia .inverse .border, .monotone-fuchsia.inverse .border-top, .monotone-fuchsia .inverse .border-top, .monotone-fuchsia.inverse .border-right, .monotone-fuchsia .inverse .border-right, .monotone-fuchsia.inverse .border-bottom, .monotone-fuchsia .inverse .border-bottom, .monotone-fuchsia.inverse .border-left, .monotone-fuchsia .inverse .border-left, .monotone-fuchsia.inverse input, .monotone-fuchsia .inverse input, .monotone-fuchsia.inverse select, .monotone-fuchsia .inverse select {
+    border-color: white
+}

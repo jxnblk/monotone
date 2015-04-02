@@ -1,0 +1,25 @@
+{
+  "name": "monotone",
+  "version": "1.0.0",
+  "description": "Monotone CSS colors themes based on colors.css",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node build"
+  },
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "devDependencies": {
+    "colors.css": "^2.3.0",
+    "css-validator": "^0.5.1",
+    "cssnext": "^1.1.0",
+    "cssstats": "^1.4.0",
+    "filesize": "^3.1.2",
+    "lodash": "^3.6.0",
+    "mocha": "^2.2.1",
+    "postcss": "^4.1.0"
+  },
+  "dependencies": {
+    "color": "^0.8.0"
+  }
+}

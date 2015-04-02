@@ -1,0 +1,30 @@
+.monotone-purple {
+    color: #B10DC9
+}
+.monotone-purple a {
+    color: #B10DC9;
+    text-decoration: underline
+}
+.monotone-purple hr, .monotone-purple .border, .monotone-purple .border-top, .monotone-purple .border-right, .monotone-purple .border-bottom, .monotone-purple .border-left, .monotone-purple input, .monotone-purple select {
+    border-color: #B10DC9
+}
+.monotone-purple input:focus, .monotone-purple select:focus {
+    box-shadow: 0 0 0 2px #B10DC9
+}
+.monotone-purple code, .monotone-purple pre {
+    background-color: color(#B10DC9 alpha(.25))
+}
+.monotone-purple.inverse, .monotone-purple .inverse, .monotone-purple .button {
+    color: white;
+    background-color: #B10DC9
+}
+.monotone-purple.inverse .button, .monotone-purple .inverse .button {
+    color: #B10DC9;
+    background-color: white
+}
+.monotone-purple.inverse a, .monotone-purple .inverse a {
+    color: white
+}
+.monotone-purple.inverse hr, .monotone-purple .inverse hr, .monotone-purple.inverse .border, .monotone-purple .inverse .border, .monotone-purple.inverse .border-top, .monotone-purple .inverse .border-top, .monotone-purple.inverse .border-right, .monotone-purple .inverse .border-right, .monotone-purple.inverse .border-bottom, .monotone-purple .inverse .border-bottom, .monotone-purple.inverse .border-left, .monotone-purple .inverse .border-left, .monotone-purple.inverse input, .monotone-purple .inverse input, .monotone-purple.inverse select, .monotone-purple .inverse select {
+    border-color: white
+}

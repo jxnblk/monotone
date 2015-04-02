@@ -1,0 +1,30 @@
+.monotone-maroon {
+    color: #85144B
+}
+.monotone-maroon a {
+    color: #85144B;
+    text-decoration: underline
+}
+.monotone-maroon hr, .monotone-maroon .border, .monotone-maroon .border-top, .monotone-maroon .border-right, .monotone-maroon .border-bottom, .monotone-maroon .border-left, .monotone-maroon input, .monotone-maroon select {
+    border-color: #85144B
+}
+.monotone-maroon input:focus, .monotone-maroon select:focus {
+    box-shadow: 0 0 0 2px #85144B
+}
+.monotone-maroon code, .monotone-maroon pre {
+    background-color: color(#85144B alpha(.25))
+}
+.monotone-maroon.inverse, .monotone-maroon .inverse, .monotone-maroon .button {
+    color: white;
+    background-color: #85144B
+}
+.monotone-maroon.inverse .button, .monotone-maroon .inverse .button {
+    color: #85144B;
+    background-color: white
+}
+.monotone-maroon.inverse a, .monotone-maroon .inverse a {
+    color: white
+}
+.monotone-maroon.inverse hr, .monotone-maroon .inverse hr, .monotone-maroon.inverse .border, .monotone-maroon .inverse .border, .monotone-maroon.inverse .border-top, .monotone-maroon .inverse .border-top, .monotone-maroon.inverse .border-right, .monotone-maroon .inverse .border-right, .monotone-maroon.inverse .border-bottom, .monotone-maroon .inverse .border-bottom, .monotone-maroon.inverse .border-left, .monotone-maroon .inverse .border-left, .monotone-maroon.inverse input, .monotone-maroon .inverse input, .monotone-maroon.inverse select, .monotone-maroon .inverse select {
+    border-color: white
+}

@@ -1,0 +1,30 @@
+.monotone-olive {
+    color: #3D9970
+}
+.monotone-olive a {
+    color: #3D9970;
+    text-decoration: underline
+}
+.monotone-olive hr, .monotone-olive .border, .monotone-olive .border-top, .monotone-olive .border-right, .monotone-olive .border-bottom, .monotone-olive .border-left, .monotone-olive input, .monotone-olive select {
+    border-color: #3D9970
+}
+.monotone-olive input:focus, .monotone-olive select:focus {
+    box-shadow: 0 0 0 2px #3D9970
+}
+.monotone-olive code, .monotone-olive pre {
+    background-color: color(#3D9970 alpha(.25))
+}
+.monotone-olive.inverse, .monotone-olive .inverse, .monotone-olive .button {
+    color: white;
+    background-color: #3D9970
+}
+.monotone-olive.inverse .button, .monotone-olive .inverse .button {
+    color: #3D9970;
+    background-color: white
+}
+.monotone-olive.inverse a, .monotone-olive .inverse a {
+    color: white
+}
+.monotone-olive.inverse hr, .monotone-olive .inverse hr, .monotone-olive.inverse .border, .monotone-olive .inverse .border, .monotone-olive.inverse .border-top, .monotone-olive .inverse .border-top, .monotone-olive.inverse .border-right, .monotone-olive .inverse .border-right, .monotone-olive.inverse .border-bottom, .monotone-olive .inverse .border-bottom, .monotone-olive.inverse .border-left, .monotone-olive .inverse .border-left, .monotone-olive.inverse input, .monotone-olive .inverse input, .monotone-olive.inverse select, .monotone-olive .inverse select {
+    border-color: white
+}

@@ -1,0 +1,30 @@
+.monotone-silver {
+    color: #ddd
+}
+.monotone-silver a {
+    color: #ddd;
+    text-decoration: underline
+}
+.monotone-silver hr, .monotone-silver .border, .monotone-silver .border-top, .monotone-silver .border-right, .monotone-silver .border-bottom, .monotone-silver .border-left, .monotone-silver input, .monotone-silver select {
+    border-color: #ddd
+}
+.monotone-silver input:focus, .monotone-silver select:focus {
+    box-shadow: 0 0 0 2px #ddd
+}
+.monotone-silver code, .monotone-silver pre {
+    background-color: color(#ddd alpha(.25))
+}
+.monotone-silver.inverse, .monotone-silver .inverse, .monotone-silver .button {
+    color: #111;
+    background-color: #ddd
+}
+.monotone-silver.inverse .button, .monotone-silver .inverse .button {
+    color: #ddd;
+    background-color: #111
+}
+.monotone-silver.inverse a, .monotone-silver .inverse a {
+    color: #111
+}
+.monotone-silver.inverse hr, .monotone-silver .inverse hr, .monotone-silver.inverse .border, .monotone-silver .inverse .border, .monotone-silver.inverse .border-top, .monotone-silver .inverse .border-top, .monotone-silver.inverse .border-right, .monotone-silver .inverse .border-right, .monotone-silver.inverse .border-bottom, .monotone-silver .inverse .border-bottom, .monotone-silver.inverse .border-left, .monotone-silver .inverse .border-left, .monotone-silver.inverse input, .monotone-silver .inverse input, .monotone-silver.inverse select, .monotone-silver .inverse select {
+    border-color: #111
+}
